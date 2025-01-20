@@ -17,3 +17,11 @@ for (let i = 1; i <= MAX_HEIGHT; i++) {
         square.classList.add('square');
     }
 }
+
+// Detect mouse movement over square, change square background color
+squares = document.querySelectorAll('.square');
+squares.forEach((square) => {
+    square.addEventListener('mouseenter', () => {
+        square.style.backgroundColor = '#fd75fd'
+    });  
+});
