@@ -55,14 +55,16 @@ function displayWarning() {
     body.appendChild(warning);
 }
 
-// Detects mouse movement over squares, changes square's background color
+// Detects mouse movement over squares, changes square's background color and increases opacity by 10% with each passing
 function paintSquares() {
     squares = document.querySelectorAll('.square');
     squares.forEach((square) => {
         square.addEventListener('mouseenter', () => {
-            square.style.backgroundColor = '#fd75fd'
+            let RED = Math.floor(Math.random() * 255);
+            let GREEN = Math.floor(Math.random() * 255);
+            let BLUE =  Math.floor(Math.random() * 255);
+            square.style.backgroundColor = `rgb(${RED}, ${GREEN}, ${BLUE})`
         });  
     });
 }
 
-    
