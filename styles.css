@@ -20,7 +20,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     flex: 1;
 }
 
@@ -31,7 +30,7 @@ body {
 }
 
 .square {
-    border: 1px solid black;
+    border: 1px solid #100558;
     padding: 16px;
 }
 
