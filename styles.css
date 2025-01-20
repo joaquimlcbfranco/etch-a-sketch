@@ -11,9 +11,13 @@ body {
     font-family: 'Orbitron', sans-serif;
     font-size: 16px;
     font-weight: 300;
+    color: white;
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center top;
 }
 
 .body {
@@ -30,7 +34,7 @@ body {
 }
 
 .square {
-    border: 1px solid #100558;
+    border: 1px solid white;
     padding: 16px;
 }
 
