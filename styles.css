@@ -58,8 +58,8 @@ input {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
-    height: 800px;
+    width: calc(350px + 10vh);
+    height: calc(350px + 10vh);
 }
 
 .row {
